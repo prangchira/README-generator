@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   For additional questions, please see the contact detail below:\n
   Author: ${data.Fullname}\n
   Email: ${data.Email}\n
-  or click here for my [Github]( https://github.com/${data.Github}) link\n
+  Click here for my [Github]( https://github.com/${data.Github}) link\n
   
 `;
 }

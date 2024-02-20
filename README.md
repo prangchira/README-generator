@@ -12,6 +12,7 @@
   * [License](#License)
   * [Contributing](#Contributing)
   * [Tests](#Tests)
+  * [Walkthrough Video](#Walkthrough-Video)
   * [Questions](#Questions)
   
   ## Installation
@@ -24,11 +25,17 @@
   This application is covered under MIT license.
 
   ## Contributing
-  Thank you Instructor Jung for walking through the fs and inquirer packages and their related functions (fs.writeFile & inquirer.prompt). I also would like to thank tuto Samuel Cordova for his help on licence badge sources and debugging dynamic Link to Section in the README.md output file. 
+  Thank you Instructor Jung for walking through the fs and inquirer packages and their related functions (fs.writeFile & inquirer.prompt). I also would like to thank tutor Samuel Cordova for his help on licence badge sources and debugging dynamic Link to Section in the README.md output file. 
 
   ## Tests
   I have tested this application by generating this README.md that you are reading :)
-  (Disclaimer: Some sections are added to this README.md manually)
+
+  Disclaimer: Some sections are added to this README.md manually including the walkthrough Video below
+
+  ## Walkthrough Video
+  Click here for a [Walkthrough Video](README-generator.mp4)
+  
+  The link to the Walkthrough Video in Github is [here](https://github.com/prangchira/README-generator/blob/main/README-generator.mp4)
 
   ## Questions
   For additional questions, please see the contact detail below:
@@ -39,4 +46,6 @@
 
   or click here for my [Github]( https://github.com/prangchira) link
 
-  Deployed link: 
+  Deployed link: https://prangchira.github.io/README-generator/
+  
+  Repository link: https://github.com/prangchira/README-generator
