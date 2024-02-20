@@ -4,7 +4,7 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  This App generate README file
+  this app create README file
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -24,17 +24,17 @@
   This application is covered under MIT license.
 
   ## Contributing
-  Prangchira
+  prang
 
   ## Tests
-  Test
+  test
 
   ## Questions
   For additional questions, please see the contact detail below:
 
-  Author: Prangchira
+  Author: PRangchira
 
-  Email: prangchira@gmail.com
+  Email: prangchira@gmial.com
 
   Click here for my [Github]( https://github.com/prangchira) link
 
