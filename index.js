@@ -2,6 +2,8 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const dir = './output';
+const OutputFilename = 'README.md'
 
 // array of questions for user
 const questions = [
@@ -9,16 +11,13 @@ const questions = [
 ];
 
 // // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
 function writeToFile(filename, data){
     fs.writeFile(filename, data, err=>{
         if (err){
             console.error(err);
         }else
         {
-            console.log("README.md generated")
+            console.log(`${OutputFilename} file is generated in ${dir} folder`)
         }
     })
 } 
@@ -74,20 +73,27 @@ function init() {
         },
         {
             type: 'input',
-            name: 'Github',
-            message: 'Please input your GitHub Username:'
+            name: 'Fullname',
+            message: 'Please input your full name:'
         },
         {
             type: 'input',
             name: 'Email',
             message: 'Please input your Email:'
+        },
+        {
+            type: 'input',
+            name: 'Github',
+            message: 'Please input your Github Username:'
         }
 
     ])
     .then((answers)=>{
         console.log(answers);
-        // fs.mkdir('output');
-        writeToFile(path.join('output','./','README.md'), generateMarkdown({...answers}))
+        if (!fs.existsSync(dir)){
+            fs.mkdirSync(dir);
+        }
+        writeToFile(path.join(dir,'./',OutputFilename), generateMarkdown({...answers}))
     });
 }
 
