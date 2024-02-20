@@ -37,7 +37,7 @@ function init() {
         },
         {
             type: 'input',
-            name: 'Description',
+            name: 'Installation',
             message: 'Please input the Installation detail:'
         },
         {
